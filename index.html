@@ -106,7 +106,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Sacramento, California, USA</address>
+              <address>Lahore, Pakistan</address>
             </div>
 
           </li>
@@ -122,15 +122,8 @@
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
-
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
+            <a href="https://github.com/basit321" class="social-link">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
@@ -760,7 +753,7 @@
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="#">
 
-                <figure class="project-img">
+                <figure class="project-img" onclick="openModal('assets/images/project-1.jpg')">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
@@ -986,7 +979,11 @@
   </main>
 
 
-
+  <div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <div id="caption"></div>
+  </div>
 
 
 
